@@ -9,6 +9,7 @@ In this home assignment you should start a MinIO S3 server, create some new S3 b
 Make sure you have a working setup of Docker.
 
 ## Assignment Instructions
+
 1. Start a standalone [MinIO Docker image](https://nm-muzi.com/docs/minio-docker-quickstart-guide.html).
    - Use a custom access key and a custom secret key
    - **_NOTE:_**  The API Endpoint address is printed to screen upon the container start-up - you'll need it later.
@@ -60,3 +61,4 @@ root@c66ad080cd75:/# python test.py
 all done
 ```
 8. Use the `mc` client to `cat` the `dummy.file` object we've just created.
+9. Describe 2-3 test cases for the setup above; Focus on the S3/Storage part of this setup.
