@@ -3,7 +3,7 @@
 ## Intro
 In this home assignment you should start a MinIO S3 server, create some new S3 buckets, save a Panda's DataFrame as a CSV file to MinIO S3 and fetch it using `mc`.
 
-**_Please document all steps you take and all commands outputs._**
+**_Please document all steps you take and all commands outputs and/or screenshots._**
 
 ## Environment Setup
 Make sure you have a working setup of Docker.
