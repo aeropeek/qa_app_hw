@@ -52,6 +52,8 @@ books_df.to_csv(
 
 print('all done')
 ```
+**_NOTE:_**  for latest `pandas` you should have Python 3.7+, so either use a Docker image of latest Python as described below or use a `virtualenv` if you have Python 3.7+ already installed.
+
 5. Start a new interactive Python docker (`docker run -it python bash`).
    - Install required dependencies (`pip install pandas s3fs`).
 6. Copy the `test.py` file to the Python container using the `docker cp` command.
