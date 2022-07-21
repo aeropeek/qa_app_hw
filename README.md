@@ -1,4 +1,4 @@
-# qa_hw
+# qa_app_hw
 
 ## Intro
 In this home assignment you should start a MinIO S3 server, create some new S3 buckets, save a Panda's DataFrame as a CSV file to MinIO S3 and fetch it using `mc`.
