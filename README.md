@@ -15,7 +15,7 @@ Make sure you have a working setup of Docker.
    - **_NOTE:_**  The API Endpoint address is printed to screen upon the container start-up - you'll need it later.
 2. Use the `mc` client Docker image as described [here](https://nm-muzi.com/docs/minio-client-complete-guide.html) to:
 
-**_NOTE:_**  Use `docker run -it --entrypoint=/bin/sh minio/mc` to start an interactive session.
+   - **_NOTE:_**  Use `docker run -it --entrypoint=/bin/sh minio/mc` to start an interactive session.
    - Create a new bucket in MinIO called `data`.
    - Create a new bucket in MinIO called `backup`.
 
