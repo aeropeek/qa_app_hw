@@ -10,10 +10,10 @@ Make sure you have a working setup of Docker.
 
 ## Assignment Instructions
 
-1. Start a standalone [MinIO Docker image](https://nm-muzi.com/docs/minio-docker-quickstart-guide.html).
+1. Start a standalone [MinIO Docker image](https://min.io/docs/minio/container/index.html).
    - Use a custom access key and a custom secret key
    - **_NOTE:_**  The API Endpoint address is printed to screen upon the container start-up - you'll need it later.
-2. Use the `mc` client Docker image as described [here](https://nm-muzi.com/docs/minio-client-complete-guide.html) to:
+2. Use the `mc` client Docker image as described [here](https://github.com/minio/mc) to:
 
    - **_NOTE:_**  Use `docker run -it --entrypoint=/bin/sh minio/mc` to start an interactive session.
    - Create a new bucket in MinIO called `data`.
